@@ -168,7 +168,7 @@ class ZLThumbnailPhotoCell: UICollectionViewCell {
         }
         
         bottomShadowView.frame = CGRect(x: 0, y: bounds.height - 25, width: bounds.width, height: 25)
-        videoTag.frame = CGRect(x: 5, y: 1, width: 20, height: 15)
+        videoTag.frame = CGRect(x: 5, y: 0, width: 18, height: 18)
         livePhotoTag.frame = CGRect(x: 5, y: 0, width: 18, height: 18)
         editImageTag.frame = CGRect(x: 5, y: -1, width: 20, height: 20)
         descLabel.frame = CGRect(x: 30, y: 1, width: bounds.width - 35, height: 17)
